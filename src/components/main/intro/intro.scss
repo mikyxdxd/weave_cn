@@ -1,0 +1,68 @@
+#intro{
+}
+  .intro_sec{
+    .intro_til{
+      font-weight: 400;
+      font-size: 1.3em;
+      display: inline-block;
+      border-bottom: 1px solid;
+      margin-bottom: 1em;
+      line-height: 1.4em;
+    }
+    #main_new{
+      img{
+        width:100%;
+      }
+    }
+    #news_list{
+        a{
+          display:block;
+          color: grey;
+          display: block;
+          padding: 0.15em 0em;
+          font-size: 0.9em;
+          border-bottom: 1px solid gainsboro;
+          &:hover{
+            color: #1abc9c;
+            cursor: pointer;
+            text-decoration: none;
+          }
+        }
+    }
+    #intro_images{
+      margin: 0;
+      margin-top:0.5em !important;
+      .one_img{
+        height: 160px;
+        background-clip: content-box !important;
+        padding: 0.05em;
+        background-size: cover !important;
+        background-repeat:no-repeat !important;
+        background-position: 50% !important;
+      }
+    }
+  }
+#news,#cmy_intro {
+  padding: 1.5em .5em;
+}
+#detail,#more{
+
+  text-align: right;
+  padding: 1em 0em;
+}
+
+  #advantage{
+    margin:4em 0em;
+    .one_adv{
+      text-align: center !important;
+      font-family: 'FontAwesome';
+      margin-top: 1em;
+      .adv_sym{
+        padding: 1em 0em;
+        text-align: center;
+      }
+      .adv_ctn{
+        height: 80px;
+      }
+    }
+  }

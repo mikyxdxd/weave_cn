@@ -1,0 +1,31 @@
+#main{
+  #hero_c{
+    width: 100vw;
+    height: 80vh;
+    background-image: url(https://images.unsplash.com/photo-1425321395722-b1dd54a97cf3?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=);
+    display: flex;
+    background-clip: content-box;
+    background-size: cover;
+    #til{
+      margin: auto;
+      font-size: 3em;
+      font-weight: 400;
+      color: white;
+      line-height: 1.4em;
+    }
+  }
+
+  #page_con{
+    //margin-top: 100vh;
+    //position: absolute;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    background: white;
+    //width:100vw;
+  }
+  @media only screen and (min-width: 993px) {
+    .container {
+      width: 85% !important;
+    }
+  }
+}

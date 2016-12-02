@@ -1,0 +1,31 @@
+#memberjoin{
+.page_ctn{
+  text-align: center;
+  padding: 3em 0em;
+  #top_ctn{
+    padding: 0.5em 3em;
+    display: inline-block;
+    border: 1px solid black;
+    font-size: 1.2em;
+  }
+  #btm_ctn{
+    padding: 3em 0em;
+    .one_sec{
+      display: inline-block;
+      padding: 0.5em 3em;
+      background: #a1e074;
+      font-size: 1.3em;
+      width:300px;
+      margin: 1.2em 0em;
+      position: relative;
+      i{
+        color: #a1e074;
+        position: absolute;
+        font-size: 2.6em;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+}
+}
